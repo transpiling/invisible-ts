@@ -1,32 +1,30 @@
 Invisible type JS
 -----------------
 
-#babel #typescript #flow #type
-
-
 This is (concept of)
-# _Invisible_ static type checker for JavaScript
+> **Invisible static type checker for JavaScript**
+
 It is the child of TypeScript, but more simple and compatible with standards and Babel transpiler. Implementation mechanism is similar with [asm.js][].
 
 ## Features
 
-**Invisible Type checking**
-Type-checking without type declarations! ([Type Inference][]).
+**Invisible Type checking**    
+Type-checking without type declarations! ([Type Inference][]).    
 As a bonus, your code will get many of type safety with your standard javascript transpiler or interpreter, even if you doesn't use invisible-type-js checker.
   
-**Easy to learn**
+**Easy to learn**    
 No need for big documentation. invisible-type-js is not a programming language, it designed just to bring type safety to javascript.
   
-**Intuitive, not new syntax**
-Even if developer doesn't know anything about [type systems][], hi can assume how client code will work, because invisible-type-js using standard js:
+**Intuitive, not new syntax**    
+Even if developer doesn't know anything about [type systems][], hi can assume how client code will work, because invisible-type-js using standard js:    
 Type declarations hidden in default values, described by javascript operators (void, ||, &&, undefined, null, Number, Boolean, String, Object).
   
-**Variable Type Safety and Inline TypeScript**
-(not implemented yet)
+**Variable Type Safety and Inline TypeScript** (not implemented yet)    
 You can use typescript functionality in babel-based project with low cost.
 
 ## Syntax
 
+```js
      
      'use strict type'
      
@@ -58,6 +56,7 @@ You can use typescript functionality in babel-based project with low cost.
      let obj = {requiredProperty: HTMLCollection && null, 
                 optionalProperty: undefined && "string"}
     
+```
 
 ## Rules
 
