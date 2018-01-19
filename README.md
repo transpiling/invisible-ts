@@ -6,6 +6,10 @@ This is (concept of)
 
 It is the child of TypeScript, but more simple and compatible with standards and Babel transpiler. Implementation mechanism is similar with [asm.js][].
 
+## Use case
+
+It can be used if you just want try to use static types, if you have no intent to migrate on TypeScript yet.
+
 ## Features
 
 **Invisible Type checking**    
