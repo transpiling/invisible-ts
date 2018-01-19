@@ -12,18 +12,19 @@ It can be utilised if you just want try to use static types, if you have no inte
 
 ## Features
 
-**Invisible Type checking**    
+#### Invisible Type checking    
 Type-checking without type declarations! ([Type Inference][]).    
 As a bonus, your code will get many of type safety with your standard javascript transpiler or interpreter, even if you doesn't use invisible-type-js checker.
   
-**Easy to learn**    
+#### Easy to learn    
 No need for big documentation. invisible-type-js is not a programming language, it designed just to bring type safety to javascript.
   
-**Intuitive, not new syntax**    
+#### Intuitive, not new syntax    
 Even if developer doesn't know anything about [type systems][], hi can assume how client code will work, because invisible-type-js using standard js:    
 Type declarations hidden in default values, described by javascript operators (void, ||, &&, undefined, null, Number, Boolean, String, Object).
   
-**Variable Type Safety and Inline TypeScript** (not implemented yet)    
+#### Variable Type Safety and Inline TypeScript
+(not implemented yet)    
 You can use typescript functionality in babel-based project with low cost.
 
 ## Syntax
@@ -56,6 +57,7 @@ You can use typescript functionality in babel-based project with low cost.
      }
      
      // Objects & Classes //
+     
      let o = Object()
      let obj = {requiredProperty: HTMLCollection && null, 
                 optionalProperty: undefined && "string"}
@@ -90,7 +92,7 @@ So, to describe how to convert one type to another, you can check ´this´ in co
 
 ## Download/Install
 
-This is just concept :)
+This is just concept :)     
 Please star this project and I will create type-checker with ESLint or/and Babel plugin.
 
 
