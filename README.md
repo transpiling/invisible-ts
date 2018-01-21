@@ -87,7 +87,7 @@ So, to describe how to convert one type to another, you can check ´this´ in co
 ## Why not Flowtype?
 
 1. Flowtype utilize special syntax to declare types (just like typescript), so typed code can't be simply copy-pasted into untyped javascript.
-2. It [doesn't fully][] support [Type Inference], mechanism used to hide type declarations.
+2. It [doesn't fully][] support [Type Inference][inference-ts], mechanism used to hide type declarations.
 3. It hard to extend: It wasn't wrote on javascript.
 
 ## Download/Install
@@ -96,6 +96,7 @@ This is just concept :)
 Please star this project and I will create type-checker with ESLint or/and Babel plugin.
 
 [Type Inference]: https://en.wikipedia.org/wiki/Type_inference
+[inference-ts]: https://www.typescriptlang.org/docs/handbook/type-inference.html
 [doesn't fully]: https://gist.github.com/alexander-shvets/7f4326e04fd571c18c54b163bd2c5825
 [type systems]: https://en.wikipedia.org/wiki/Type_system
 [asm.js]: https://en.wikipedia.org/wiki/Asm.js
