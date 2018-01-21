@@ -8,7 +8,7 @@ It is the child of TypeScript, but more simple and compatible with standards and
 
 ### Use case
 
-It can be utilised if you just want try to use static types, if you have no intent to migrate on TypeScript (or FlowType) yet.
+It can be utilised if you just want try to use static types, if you have no intent to rewrite all your code on TypeScript (or FlowType) yet.
 
 ## Features
 
