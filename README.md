@@ -92,7 +92,7 @@ So, to describe how to convert one type to another, you can check ´this´ in co
 ## Download/Install
 
 This is just concept :)     
-Please star this project and I will create type-checker with ESLint or/and Babel plugin.
+Please star this repo and I will create type-checker with ESLint or/and Babel plugin.
 
 [Type Inference]: https://en.wikipedia.org/wiki/Type_inference
 [inference-ts]: https://www.typescriptlang.org/docs/handbook/type-inference.html
