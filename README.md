@@ -12,20 +12,20 @@ It can be utilised if you just want try to use static types, if you have no inte
 
 ## Features
 
-#### Invisible Type checking    
+#### ✔ Invisible Type checking    
 Type-checking without type declarations! ([Type Inference][]).    
 As a bonus, your code will get many of type safety with your standard javascript transpiler or interpreter, even if you doesn't use Invisible TS checker.
   
-#### Easy to learn    
+#### ✔ Easy to learn    
 No need for big documentation. Invisible TS is not a programming language, it designed just to bring type safety to javascript.
   
-#### Intuitive, not new syntax    
+#### ✔ Intuitive, not new syntax    
 Even if developer doesn't know anything about [type systems][], hi can assume how client code will work, because Invisible TS using standard js:    
 Type declarations hidden in default values, described by javascript operators (void, ||, &&, undefined, null, Number, Boolean, String, Object).
   
-#### Variable Type Safety and Inline TypeScript
+#### ✔ Variable Type Safety and Inline TypeScript
 (not implemented yet)    
-You can use typescript functionality in babel-based project with low cost.
+You can start using typescript functionality in babel-based project with low cost.
 
 ## Syntax
 
