@@ -96,6 +96,6 @@ Please star this repo and I will create type-checker with ESLint or/and Babel pl
 
 [Type Inference]: https://en.wikipedia.org/wiki/Type_inference
 [inference-ts]: https://www.typescriptlang.org/docs/handbook/type-inference.html
-[doesn't fully]: https://github.com/flowtype/flow-typed/issues/1748
+[doesn't fully]: https://github.com/facebook/flow/issues/5693
 [type systems]: https://en.wikipedia.org/wiki/Type_system
 [asm.js]: https://en.wikipedia.org/wiki/Asm.js
