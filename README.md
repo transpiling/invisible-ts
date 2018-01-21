@@ -1,5 +1,5 @@
-Invisible type JS
------------------
+Invisible type system
+---------------------
 
 This is (concept of)
 > **Invisible static type checker for JavaScript**
