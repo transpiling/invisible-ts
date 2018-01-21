@@ -38,12 +38,11 @@ You can use typescript functionality in babel-based project with low cost.
      let n = Number()
      let i = 0 // the same as Number()
      let s = "string"
-     let b = Boolean() // initial value - false,
-                      // can't be undefined or null
+     let b = Boolean() // initial value - false, can't be undefined or null
      let b3 = void Boolean // initial value - undefined
      let any = undefined
-     let anyOf = Number || String || Boolean || Object ||
-                 null || undefined
+     let anyOf = Number || String || Boolean || Object || null || undefined
+
      let uninitiated = void HTMLElement
      let theSame  = HTMLElement && undefined
      let nullable = HTMLElement && null
