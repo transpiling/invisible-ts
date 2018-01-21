@@ -1,4 +1,4 @@
-Invisible type system
+Invisible Type System
 ---------------------
 
 This is (concept of)
@@ -14,13 +14,13 @@ It can be utilised if you just want try to use static types, if you have no inte
 
 #### Invisible Type checking    
 Type-checking without type declarations! ([Type Inference][]).    
-As a bonus, your code will get many of type safety with your standard javascript transpiler or interpreter, even if you doesn't use invisible-type checker.
+As a bonus, your code will get many of type safety with your standard javascript transpiler or interpreter, even if you doesn't use Invisible TS checker.
   
 #### Easy to learn    
-No need for big documentation. invisible-type is not a programming language, it designed just to bring type safety to javascript.
+No need for big documentation. Invisible TS is not a programming language, it designed just to bring type safety to javascript.
   
 #### Intuitive, not new syntax    
-Even if developer doesn't know anything about [type systems][], hi can assume how client code will work, because invisible-type using standard js:    
+Even if developer doesn't know anything about [type systems][], hi can assume how client code will work, because Invisible TS using standard js:    
 Type declarations hidden in default values, described by javascript operators (void, ||, &&, undefined, null, Number, Boolean, String, Object).
   
 #### Variable Type Safety and Inline TypeScript
@@ -81,7 +81,7 @@ So, to describe how to convert one type to another, you can check ´this´ in co
 
 ## Why not TypeScript?
 
-1. Typescript has many parts - it is programming language, type-checker and transpiler all-in-one. Invisible-type is only type-checker (it doesn't extend the language, like typescript with interfaces and polymorphism).
+1. Typescript has many parts - it is programming language, type-checker and transpiler all-in-one. Invisible TS is only type-checker (it doesn't extend the language, like typescript with interfaces and polymorphism).
 2. It introduce special syntax, and it doesn't look good with ES6 defaults and destructuring.
 
 ## Why not Flowtype?
