@@ -52,7 +52,7 @@ You can use typescript functionality in babel-based project with low cost.
      
      // define function, that return boolean and require one argument:
      void Boolean
-     function invert( value = Boolean && TypeError() ){
+     function invert( value = Boolean() || TypeError() ){
          return ! value
      }
      
